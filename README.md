@@ -158,7 +158,7 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 ***Questions:***
 
 1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Yes, it is possible to run multiple instances of debian linux by using Linux Containers (LXC) because it provides a virtualization system that utilizes kernel level isolation through cgroups and namespaces, allowing you to run multiple isolated units on the same kernel efficiently.__.
 
 ## Running your own container with persistent storage
 
